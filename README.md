@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Heart Risk Prediction Project
 
 Описание проекта
@@ -66,3 +67,7 @@ files = {"file": open("data/heart_test.csv", "rb")}
 response = requests.post("http://127.0.0.1:8000/predict", files=files)
 
 print(response.json())
+=======
+# heart-risk-prediction
+Machine learning model and FastAPI service for heart attack risk prediction.
+>>>>>>> 406a927c8ad4ae6408396cec419527aedda9ed7c
